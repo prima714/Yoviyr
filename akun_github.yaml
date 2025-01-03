@@ -1,14 +1,14 @@
 proxies:
-- name: AKUN-GITNEW
-  server: vidio.xtls.my.id
+- name: GITNEW
+  server: support.zoom.us
   port: 443
   type: trojan
-  password: fbc088b5-2fb4-4542-b0ca-75a8c8fea574
+  password: 5d1b2bae-c758-4c1a-a26a-84fb7060c7b1
   network: ws
-  sni: nusa.lowh.site
+  sni: sggs-2.storevpn.cc
   skip-cert-verify: true
   udp: true
   ws-opts:
-    path: "/trojan"
+    path: /trojan
     headers:
-      Host: nusa.lowh.site
+      Host: sggs-2.storevpn.cc

@@ -1,5 +1,5 @@
 proxies:
-- name: GITNEW
+- name: Git1
   server: support.zoom.us
   port: 443
   type: trojan
@@ -8,6 +8,45 @@ proxies:
   sni: sggs-2.storevpn.cc
   skip-cert-verify: true
   udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sggs-2.storevpn.cc
+- name: Git2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: daae9a02-a69c-4ad6-a9c2-8fc7a97428cb
+  udp: true
+  sni: sggs-2.storevpn.cc
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sggs-2.storevpn.cc
+- name: Git3
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: daae9a02-a69c-4ad6-a9c2-8fc7a97428cb
+  udp: true
+  sni: sggs-2.storevpn.cc
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sggs-2.storevpn.cc
+- name: Git4
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: daae9a02-a69c-4ad6-a9c2-8fc7a97428cb
+  udp: true
+  sni: sggs-2.storevpn.cc
+  skip-cert-verify: true
+  network: ws
   ws-opts:
     path: /trojan
     headers:
